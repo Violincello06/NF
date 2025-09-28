@@ -1,0 +1,131 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Orbitron', Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    padding: 20px 0;
+    background: #222;
+    color: #fff;
+    text-align: center;
+    font-family: 'Karma', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+header h1 {
+    font-family: 'Futured', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: 2.5em;
+}
+
+nav {
+    margin: 20px 0 0 0;
+    /* Remove default ul centering */
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.center-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    text-align: center;
+}
+
+.center-section h2,
+.center-section p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.team-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.team-list li {
+    margin: 4px 0;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+@font-face {
+    font-family: 'YAndermo';
+    src: url('fonts/YAndermo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KarmaLocal';
+    src: url('fonts/Karma-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futured';
+    src: url('fonts/Futured.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -109,6 +109,13 @@ footer {
     font-size: 1.1em;
 }
 
+.team-logo {
+    display: block;
+    margin: 32px auto 16px auto;
+    max-width: 120px;
+    height: auto;
+}
+
 @font-face {
     font-family: 'YAndermo';
     src: url('fonts/YAndermo.ttf') format('truetype');

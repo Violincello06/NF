@@ -35,7 +35,7 @@ header h1 {
 
 nav {
     margin: 20px 0 0 0;
-    /* Remove default ul centering */
+    
 }
 
 nav a {
@@ -112,7 +112,7 @@ footer {
 .team-logo {
     display: block;
     margin: 32px auto 16px auto;
-    max-width: 120px;
+    max-width: 80px;
     height: auto;
 }
 
